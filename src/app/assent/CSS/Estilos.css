@@ -1,0 +1,125 @@
+h1,a,button{
+    color:white
+}
+
+button{
+    background-color: blue;
+}
+
+a:hover{
+    color:red
+}
+
+.nombre,.email,.contrasenia,.numero,.cumplanios,.selector,.btn{
+    font-size: 20px;
+    
+}
+
+input{
+    margin: 0;
+}
+
+.formulario{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.navegador{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+
+.carta1{
+    text-align: start;
+}
+
+.carta2{
+    text-align: center;
+}
+
+.carta3{
+    text-align: end;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color:white;
+    background-image:url("https://www.infobae.com/new-resizer/t9u69vxi5hgxkppiRKb6Zh6ZAhE=/1024x512/filters:format(webp):quality(85)//arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/4GSUPRZXXREO7A3YKFIT3W2RMM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#funciones{
+    background-color: rgb(15,15,15);
+    color:white;
+    text-align: center;
+}
+
+#funciones .container{
+    padding: 100px 0px;
+}
+
+#funciones h2{
+    margin-top: 0;
+}
+
+#funciones p{
+   color:white ;
+}
+
+#funciones .carta{
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+}
+
+
+.carta:first-child{
+    background-image: url("https://cdn-3.expansion.mx/dims4/default/adc475b/2147483647/strip/true/crop/1200x800+0+0/resize/1800x1200!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F02%2Fdc%2Fab7d953046e48597b95b8edf9ee1%2Ftaller-mecanico-auto-coche-reparacion-istock-1369634377.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carta:nth-child(2){
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX0lqeAFpxjrPJdJ9y1YzAT4rYZs0YpznkLg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carta:nth-child(3){
+    background-image: url("https://www.chevrolet.cl/content/dam/chevrolet/south-america/chile/espanol/index/index-subcontent/01-catwalk/2018-home-financia-03-optimized.jpg?imwidth=419");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.modelos{
+    background-image:url("https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2020/03/492392.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container_modelos{
+    text-align: center;
+    padding:200px 20px;
+    color:white;
+    margin-bottom: 100px;
+}
